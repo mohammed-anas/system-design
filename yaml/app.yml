@@ -1,7 +1,0 @@
-servers:
-  -
-    hostname: localhost:7080
-    name: Mumbai
-  -
-    hostname: localhost:7081
-    name: Bangalore

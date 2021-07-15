@@ -1,9 +1,11 @@
 package main
 
 import (
+	"os"
 	server "system-design/caching"
 )
 
 func main() {
-	server.RunServer()
+	port := os.Args[1]
+	server.RunServer(port)
 }
